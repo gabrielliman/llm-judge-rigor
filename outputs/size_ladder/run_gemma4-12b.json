@@ -1,0 +1,86 @@
+{
+  "model": "gemma4-12b",
+  "n_requests": 38142,
+  "n_retried": 1,
+  "seconds": 11098.160399913788,
+  "requests_per_min": 206.20714762941952,
+  "per_prompt": [
+    {
+      "prompt_id": "L",
+      "n_items": 4238,
+      "n_retried": 0,
+      "n_missing": 0,
+      "n_thinking_marker": 0,
+      "keys_out_of_order": 0
+    },
+    {
+      "prompt_id": "N",
+      "n_items": 4238,
+      "n_retried": 0,
+      "n_missing": 0,
+      "n_thinking_marker": 0,
+      "keys_out_of_order": 0
+    },
+    {
+      "prompt_id": "S",
+      "n_items": 4238,
+      "n_retried": 0,
+      "n_missing": 0,
+      "n_thinking_marker": 0,
+      "keys_out_of_order": 0
+    },
+    {
+      "prompt_id": "N1",
+      "n_items": 4238,
+      "n_retried": 0,
+      "n_missing": 0,
+      "n_thinking_marker": 0,
+      "keys_out_of_order": 0
+    },
+    {
+      "prompt_id": "N2",
+      "n_items": 4238,
+      "n_retried": 0,
+      "n_missing": 0,
+      "n_thinking_marker": 0,
+      "keys_out_of_order": 0
+    },
+    {
+      "prompt_id": "N3",
+      "n_items": 4238,
+      "n_retried": 0,
+      "n_missing": 0,
+      "n_thinking_marker": 0,
+      "keys_out_of_order": 0
+    },
+    {
+      "prompt_id": "P1",
+      "n_items": 4238,
+      "n_retried": 0,
+      "n_missing": 0,
+      "n_thinking_marker": 0,
+      "keys_out_of_order": 0
+    },
+    {
+      "prompt_id": "P2",
+      "n_items": 4238,
+      "n_retried": 1,
+      "n_missing": 0,
+      "n_thinking_marker": 0,
+      "keys_out_of_order": 0
+    },
+    {
+      "prompt_id": "P3",
+      "n_items": 4238,
+      "n_retried": 0,
+      "n_missing": 0,
+      "n_thinking_marker": 0,
+      "keys_out_of_order": 0
+    }
+  ],
+  "split": "full",
+  "logprobs": true,
+  "no_whitespace": false,
+  "only_missing": null,
+  "tensor_parallel": 2
+}

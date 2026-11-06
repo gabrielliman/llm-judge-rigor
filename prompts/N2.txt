@@ -1,0 +1,5 @@
+Como assistente, você receberá trechos de uma transcrição de audiência pública e uma opinião. Determine se essa opinião pode ser inferida a partir dos trechos.
+Apresente a resposta apenas como um objeto JSON com as seguintes chaves:
+- "explicacao": texto com a justificativa de por que a opinião pode ou não ser inferida a partir dos trechos;
+- "opiniao_inferida": valor booleano de acordo com a justificativa (true: a opinião pode ser inferida a partir dos trechos; false: não pode).
+Nada deve ser escrito fora do objeto JSON.

@@ -1,0 +1,23 @@
+{
+  "model": "qwen35-4b",
+  "n_requests": 1,
+  "n_retried": 0,
+  "seconds": 1.7305595874786377,
+  "requests_per_min": 34.67086625281584,
+  "per_prompt": [
+    {
+      "prompt_id": "S",
+      "n_items": 1,
+      "n_retried": 0,
+      "n_missing": 0,
+      "n_thinking_marker": 0,
+      "keys_out_of_order": 0
+    }
+  ],
+  "split": "full",
+  "logprobs": true,
+  "no_whitespace": true,
+  "only_missing": "outputs/main",
+  "tensor_parallel": 1,
+  "note": "seconds covers a batch that also regenerated non-missing pairs; only missing pairs are kept"
+}

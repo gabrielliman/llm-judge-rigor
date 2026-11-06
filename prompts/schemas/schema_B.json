@@ -1,0 +1,23 @@
+{
+  "type": "object",
+  "properties": {
+    "trechos_para_basear_analise": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "explicacao": {
+      "type": "string"
+    },
+    "opiniao_inferida": {
+      "type": "boolean"
+    }
+  },
+  "required": [
+    "trechos_para_basear_analise",
+    "explicacao",
+    "opiniao_inferida"
+  ],
+  "additionalProperties": false
+}

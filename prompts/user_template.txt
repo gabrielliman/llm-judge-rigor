@@ -1,0 +1,4 @@
+###### TEXTO:
+{TEXTO}
+###### OPINIÃO PARA ANALISAR:
+{OPINIAO}

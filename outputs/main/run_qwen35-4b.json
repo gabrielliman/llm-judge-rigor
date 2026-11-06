@@ -1,0 +1,86 @@
+{
+  "model": "qwen35-4b",
+  "n_requests": 38142,
+  "n_retried": 5,
+  "seconds": 4076.467657327652,
+  "requests_per_min": 561.3978062321363,
+  "per_prompt": [
+    {
+      "prompt_id": "L",
+      "n_items": 4238,
+      "n_retried": 0,
+      "n_missing": 0,
+      "n_thinking_marker": 0,
+      "keys_out_of_order": 0
+    },
+    {
+      "prompt_id": "N",
+      "n_items": 4238,
+      "n_retried": 1,
+      "n_missing": 0,
+      "n_thinking_marker": 0,
+      "keys_out_of_order": 0
+    },
+    {
+      "prompt_id": "S",
+      "n_items": 4238,
+      "n_retried": 1,
+      "n_missing": 1,
+      "n_thinking_marker": 0,
+      "keys_out_of_order": 0
+    },
+    {
+      "prompt_id": "N1",
+      "n_items": 4238,
+      "n_retried": 1,
+      "n_missing": 0,
+      "n_thinking_marker": 0,
+      "keys_out_of_order": 0
+    },
+    {
+      "prompt_id": "N2",
+      "n_items": 4238,
+      "n_retried": 0,
+      "n_missing": 0,
+      "n_thinking_marker": 0,
+      "keys_out_of_order": 0
+    },
+    {
+      "prompt_id": "N3",
+      "n_items": 4238,
+      "n_retried": 0,
+      "n_missing": 0,
+      "n_thinking_marker": 0,
+      "keys_out_of_order": 0
+    },
+    {
+      "prompt_id": "P1",
+      "n_items": 4238,
+      "n_retried": 0,
+      "n_missing": 0,
+      "n_thinking_marker": 0,
+      "keys_out_of_order": 0
+    },
+    {
+      "prompt_id": "P2",
+      "n_items": 4238,
+      "n_retried": 1,
+      "n_missing": 0,
+      "n_thinking_marker": 0,
+      "keys_out_of_order": 0
+    },
+    {
+      "prompt_id": "P3",
+      "n_items": 4238,
+      "n_retried": 1,
+      "n_missing": 0,
+      "n_thinking_marker": 0,
+      "keys_out_of_order": 0
+    }
+  ],
+  "split": "full",
+  "logprobs": false,
+  "no_whitespace": false,
+  "only_missing": null,
+  "tensor_parallel": 1
+}

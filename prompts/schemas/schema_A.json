@@ -1,0 +1,16 @@
+{
+  "type": "object",
+  "properties": {
+    "explicacao": {
+      "type": "string"
+    },
+    "opiniao_inferida": {
+      "type": "boolean"
+    }
+  },
+  "required": [
+    "explicacao",
+    "opiniao_inferida"
+  ],
+  "additionalProperties": false
+}

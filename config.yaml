@@ -1,0 +1,57 @@
+# Experimental configuration. Every stochastic step uses `seed`.
+seed: 20261105
+
+data:
+  revision: 2f84a44bc34df483e25c987f0ff86caad0ab3433   # unicamp-dl/PublicHearingBR
+  pilot_per_class: 150
+
+# System prompt -> JSON schema used for guided decoding (prompts/, prompts/schemas/).
+prompts:
+  L: schema_A
+  N: schema_A
+  S: schema_A
+  N1: schema_A
+  N2: schema_A
+  N3: schema_A
+  P1: schema_A
+  P2: schema_B
+  P3: schema_B
+
+generation:
+  dtype: bfloat16
+  max_model_len: 8192
+  gpu_memory_utilization: 0.90
+  limit_mm_per_prompt: {image: 0, audio: 0, video: 0}   # text-only use of multimodal checkpoints
+  max_tokens: 1024
+  max_tokens_retry: 2048
+  enable_thinking: false
+  thinking_markers: ["<think>", "</think>", "<|channel>", "<channel|>"]
+
+# Judges of the confirmatory study: 2 families x 2 sizes. params_b = total parameters (billions).
+models:
+  - {short: qwen35-2b, id: Qwen/Qwen3.5-2B, revision: 15852e8c16360a2fea060d615a32b45270f8a8fc,
+     family: qwen, size: small, params_b: 2.27}
+  - {short: qwen35-4b, id: Qwen/Qwen3.5-4B, revision: 851bf6e806efd8d0a36b00ddf55e13ccb7b8cd0a,
+     family: qwen, size: large, params_b: 4.66}
+  - {short: gemma4-e2b, id: google/gemma-4-E2B-it, revision: 4adf15748de9e1a0097b6274cee9c15836c41c37,
+     family: gemma, size: small, params_b: 5.12}
+  # max_num_seqs bounds activation memory so that the KV cache fits on a 24 GB GPU.
+  - {short: gemma4-e4b, id: google/gemma-4-E4B-it, revision: 4ecc2ba63bcac23ba4a767fc87025b1450f84c9c,
+     family: gemma, size: large, params_b: 8.00, engine: {max_num_seqs: 64}}
+
+# Additional judges used only in the exploratory size ladder.
+exploratory_models:
+  - {short: qwen35-0.8b, id: Qwen/Qwen3.5-0.8B, revision: 2fc06364715b967f1860aea9cf38778875588b17,
+     family: qwen, size: xs, params_b: 0.87}
+  - {short: qwen35-9b, id: Qwen/Qwen3.5-9B, revision: c202236235762e1c871ad0ccb60c8ee5ba337b9a,
+     family: qwen, size: xl, params_b: 9.65}
+  - {short: gemma4-12b, id: google/gemma-4-12B-it, revision: 43c9d014b231474fa7212dbb48a762566c2b255d,
+     family: gemma, size: xl, params_b: 11.96}
+
+analysis:
+  bootstrap_B: 1000
+  ci: 0.95
+
+logprobs:
+  top_k: 5          # top-k log-probabilities per generated token
+  chunk_size: 2000  # requests per vLLM call when log-probabilities are recorded

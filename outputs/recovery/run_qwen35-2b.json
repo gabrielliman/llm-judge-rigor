@@ -1,0 +1,79 @@
+{
+  "model": "qwen35-2b",
+  "n_requests": 152,
+  "n_retried": 72,
+  "seconds": 77.02578926086426,
+  "requests_per_min": 118.40190262917235,
+  "per_prompt": [
+    {
+      "prompt_id": "L",
+      "n_items": 1,
+      "n_retried": 0,
+      "n_missing": 0,
+      "n_thinking_marker": 0,
+      "keys_out_of_order": 0
+    },
+    {
+      "prompt_id": "N",
+      "n_items": 1,
+      "n_retried": 0,
+      "n_missing": 0,
+      "n_thinking_marker": 0,
+      "keys_out_of_order": 0
+    },
+    {
+      "prompt_id": "S",
+      "n_items": 1,
+      "n_retried": 0,
+      "n_missing": 0,
+      "n_thinking_marker": 0,
+      "keys_out_of_order": 0
+    },
+    {
+      "prompt_id": "N2",
+      "n_items": 1,
+      "n_retried": 0,
+      "n_missing": 0,
+      "n_thinking_marker": 0,
+      "keys_out_of_order": 0
+    },
+    {
+      "prompt_id": "N3",
+      "n_items": 7,
+      "n_retried": 0,
+      "n_missing": 0,
+      "n_thinking_marker": 0,
+      "keys_out_of_order": 0
+    },
+    {
+      "prompt_id": "P1",
+      "n_items": 2,
+      "n_retried": 0,
+      "n_missing": 0,
+      "n_thinking_marker": 0,
+      "keys_out_of_order": 0
+    },
+    {
+      "prompt_id": "P2",
+      "n_items": 55,
+      "n_retried": 27,
+      "n_missing": 22,
+      "n_thinking_marker": 0,
+      "keys_out_of_order": 0
+    },
+    {
+      "prompt_id": "P3",
+      "n_items": 84,
+      "n_retried": 45,
+      "n_missing": 41,
+      "n_thinking_marker": 0,
+      "keys_out_of_order": 0
+    }
+  ],
+  "split": "full",
+  "logprobs": true,
+  "no_whitespace": true,
+  "only_missing": "outputs/main",
+  "tensor_parallel": 1,
+  "note": "seconds covers a batch that also regenerated non-missing pairs; only missing pairs are kept"
+}

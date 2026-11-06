@@ -1,0 +1,99 @@
+{
+  "reproducibility": {
+    "agree_min": 0.9206611570247933,
+    "agree_median": 0.9891291466249694,
+    "kappa_min": 0.8060353373500664,
+    "identical_text_median": 0.46944313355356304,
+    "max_abs_diff_R_raw": 0.0058166515438443644
+  },
+  "recovered": {
+    "n_filled": 178,
+    "n_still_missing": 64,
+    "verdicts": {
+      "H1": [
+        "supported",
+        "supported",
+        "supported"
+      ],
+      "H2": [
+        "not supported",
+        "not supported",
+        "not supported"
+      ],
+      "H3": [
+        "supported",
+        "supported",
+        "supported"
+      ],
+      "H4": [
+        "inconclusive"
+      ],
+      "H5": [
+        "not supported",
+        "not supported",
+        "not supported"
+      ]
+    }
+  },
+  "logprobs": {
+    "argmax_matches_verdict_min": 0.9983478876563606,
+    "rho_meanP_Rc": 0.996911196911197,
+    "rho_AUC_dprime": 0.31480051480051485,
+    "delta_AUC_by_model": {
+      "gemma4-e2b": 0.15921340378930326,
+      "gemma4-e4b": 0.07267538252854927,
+      "qwen35-2b": 0.09955849008414563,
+      "qwen35-4b": 0.1309811928897807
+    },
+    "frac_p_extreme_by_model": {
+      "gemma4-e2b": 0.9926432970678848,
+      "gemma4-e4b": 0.9930507991224152,
+      "qwen35-2b": 0.875710304958134,
+      "qwen35-4b": 0.9951497037386609
+    }
+  },
+  "size_ladder": {
+    "mean_kendall_size_vs_measure": {
+      "qwen|R_raw": -0.29629629629629645,
+      "qwen|R_c": -0.2592592592592593,
+      "qwen|R_rasch": -0.29629629629629645,
+      "qwen|d_prime": 0.777777777777778,
+      "gemma|R_raw": 0.5351662867697473,
+      "gemma|R_c": 0.33333333333333337,
+      "gemma|R_rasch": 0.5555555555555556,
+      "gemma|d_prime": 0.925925925925926
+    },
+    "contrasts_against_prediction": [
+      {
+        "model": "qwen35-0.8b",
+        "measure": "R_raw",
+        "contrast": "N-L"
+      },
+      {
+        "model": "qwen35-0.8b",
+        "measure": "R_c",
+        "contrast": "N-L"
+      },
+      {
+        "model": "qwen35-0.8b",
+        "measure": "R_rasch",
+        "contrast": "N-L"
+      },
+      {
+        "model": "qwen35-2b",
+        "measure": "R_raw",
+        "contrast": "P2-P1"
+      },
+      {
+        "model": "qwen35-2b",
+        "measure": "R_c",
+        "contrast": "P2-P1"
+      },
+      {
+        "model": "qwen35-2b",
+        "measure": "R_rasch",
+        "contrast": "P2-P1"
+      }
+    ]
+  }
+}

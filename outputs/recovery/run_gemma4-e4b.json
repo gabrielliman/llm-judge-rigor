@@ -1,0 +1,55 @@
+{
+  "model": "gemma4-e4b",
+  "n_requests": 11,
+  "n_retried": 0,
+  "seconds": 8.115071296691895,
+  "requests_per_min": 81.33015421183653,
+  "per_prompt": [
+    {
+      "prompt_id": "L",
+      "n_items": 2,
+      "n_retried": 0,
+      "n_missing": 0,
+      "n_thinking_marker": 0,
+      "keys_out_of_order": 0
+    },
+    {
+      "prompt_id": "N",
+      "n_items": 3,
+      "n_retried": 0,
+      "n_missing": 0,
+      "n_thinking_marker": 0,
+      "keys_out_of_order": 0
+    },
+    {
+      "prompt_id": "S",
+      "n_items": 1,
+      "n_retried": 0,
+      "n_missing": 0,
+      "n_thinking_marker": 0,
+      "keys_out_of_order": 0
+    },
+    {
+      "prompt_id": "N1",
+      "n_items": 3,
+      "n_retried": 0,
+      "n_missing": 0,
+      "n_thinking_marker": 0,
+      "keys_out_of_order": 0
+    },
+    {
+      "prompt_id": "P3",
+      "n_items": 2,
+      "n_retried": 0,
+      "n_missing": 0,
+      "n_thinking_marker": 0,
+      "keys_out_of_order": 0
+    }
+  ],
+  "split": "full",
+  "logprobs": true,
+  "no_whitespace": true,
+  "only_missing": "outputs/main",
+  "tensor_parallel": 1,
+  "note": "seconds covers a batch that also regenerated non-missing pairs; only missing pairs are kept"
+}

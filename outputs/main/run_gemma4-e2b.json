@@ -1,0 +1,86 @@
+{
+  "model": "gemma4-e2b",
+  "n_requests": 38142,
+  "n_retried": 106,
+  "seconds": 1306.8979783058167,
+  "requests_per_min": 1751.1083787631983,
+  "per_prompt": [
+    {
+      "prompt_id": "L",
+      "n_items": 4238,
+      "n_retried": 13,
+      "n_missing": 9,
+      "n_thinking_marker": 0,
+      "keys_out_of_order": 0
+    },
+    {
+      "prompt_id": "N",
+      "n_items": 4238,
+      "n_retried": 9,
+      "n_missing": 8,
+      "n_thinking_marker": 0,
+      "keys_out_of_order": 0
+    },
+    {
+      "prompt_id": "S",
+      "n_items": 4238,
+      "n_retried": 13,
+      "n_missing": 11,
+      "n_thinking_marker": 0,
+      "keys_out_of_order": 0
+    },
+    {
+      "prompt_id": "N1",
+      "n_items": 4238,
+      "n_retried": 12,
+      "n_missing": 7,
+      "n_thinking_marker": 0,
+      "keys_out_of_order": 0
+    },
+    {
+      "prompt_id": "N2",
+      "n_items": 4238,
+      "n_retried": 19,
+      "n_missing": 10,
+      "n_thinking_marker": 0,
+      "keys_out_of_order": 0
+    },
+    {
+      "prompt_id": "N3",
+      "n_items": 4238,
+      "n_retried": 16,
+      "n_missing": 15,
+      "n_thinking_marker": 0,
+      "keys_out_of_order": 0
+    },
+    {
+      "prompt_id": "P1",
+      "n_items": 4238,
+      "n_retried": 3,
+      "n_missing": 3,
+      "n_thinking_marker": 0,
+      "keys_out_of_order": 0
+    },
+    {
+      "prompt_id": "P2",
+      "n_items": 4238,
+      "n_retried": 12,
+      "n_missing": 7,
+      "n_thinking_marker": 0,
+      "keys_out_of_order": 0
+    },
+    {
+      "prompt_id": "P3",
+      "n_items": 4238,
+      "n_retried": 9,
+      "n_missing": 8,
+      "n_thinking_marker": 0,
+      "keys_out_of_order": 0
+    }
+  ],
+  "split": "full",
+  "logprobs": false,
+  "no_whitespace": false,
+  "only_missing": null,
+  "tensor_parallel": 1
+}

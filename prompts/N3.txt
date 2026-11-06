@@ -1,0 +1,5 @@
+Você é um assistente. A seguir, serão apresentados trechos de uma transcrição de audiência pública e uma opinião. Verifique se a opinião pode ser inferida a partir desses trechos.
+Escreva a saída somente em JSON, contendo:
+- "explicacao": seu raciocínio sobre se é possível inferir a opinião a partir dos trechos;
+- "opiniao_inferida": true se a opinião puder ser inferida a partir dos trechos; false caso contrário.
+Não escreva nada além desse JSON.

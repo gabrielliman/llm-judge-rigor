@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+.env/
+.venv/
+
+# Dataset (downloaded by scripts/prepare_data.py; not redistributed)
+data/raw/
+data/items.parquet
+
+# Plain-text outputs written by a new generation run (released outputs are .jsonl.gz)
+outputs/**/*.jsonl
+
+# Manuscript sources, local files and logs
+paper/
+.local/
+logs/

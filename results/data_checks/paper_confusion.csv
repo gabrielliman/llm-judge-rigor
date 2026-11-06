@@ -1,0 +1,13 @@
+judge,TP,FN,FP,TN,missing,paper_TN,paper_FP,paper_FN,paper_TP,cells_match,printed_col_totals_match
+paper_P1_gpt-4o-mini-2024-07-18,323,181,61,3673,0,3673,61,181,323,True,True
+paper_P2_gpt-4o-mini-2024-07-18,415,89,460,3274,0,3274,460,89,415,True,True
+paper_P3_gpt-4o-mini-2024-07-18,465,39,1329,2405,0,2405,1329,39,465,True,False
+paper_P1_gpt-4o-2024-08-06,339,165,173,3561,0,3561,173,165,339,True,True
+paper_P2_gpt-4o-2024-08-06,414,90,458,3276,0,3276,458,90,414,True,True
+paper_P3_gpt-4o-2024-08-06,458,46,812,2922,0,2922,812,46,458,True,True
+paper_P1_deepseek-chat,263,241,68,3666,0,3666,68,241,263,True,False
+paper_P2_deepseek-chat,337,167,149,3585,0,3585,149,167,337,True,False
+paper_P3_deepseek-chat,409,95,434,3300,0,3300,434,95,409,True,False
+paper_P1_sabia-3.1-2025-05-08,249,255,57,3677,0,3677,57,255,249,True,False
+paper_P2_sabia-3.1-2025-05-08,283,221,87,3647,0,3647,87,221,283,True,False
+paper_P3_sabia-3.1-2025-05-08,296,208,102,3632,0,3632,102,208,296,True,False

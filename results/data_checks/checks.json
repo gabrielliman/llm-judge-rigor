@@ -1,0 +1,72 @@
+{
+  "n_items": 4238,
+  "n_hearings": 206,
+  "n_hallucinations": 504,
+  "label_value_for_hallucination": "True",
+  "chunk_count_distribution": {
+    "4": 4237,
+    "0": 1
+  },
+  "items_without_context": [
+    "99-5-0",
+    "99-5-1",
+    "141-1-0"
+  ],
+  "raw_value_counts": {
+    "verificacao_manual": {
+      "False": 3734,
+      "True": 504
+    },
+    "paper_alucinacao": {
+      "prompt_1_gpt-4o-mini-2024-07-18": {
+        "False": 3854,
+        "True": 384
+      },
+      "prompt_2_gpt-4o-mini-2024-07-18": {
+        "True": 875,
+        "False": 3363
+      },
+      "prompt_3_gpt-4o-mini-2024-07-18": {
+        "True": 1794,
+        "False": 2444
+      },
+      "prompt_1_gpt-4o-2024-08-06": {
+        "False": 3726,
+        "True": 512
+      },
+      "prompt_2_gpt-4o-2024-08-06": {
+        "False": 3366,
+        "True": 872
+      },
+      "prompt_3_gpt-4o-2024-08-06": {
+        "True": 1270,
+        "False": 2968
+      },
+      "prompt_1_deepseek-chat": {
+        "False": 3907,
+        "True": 331
+      },
+      "prompt_2_deepseek-chat": {
+        "False": 3752,
+        "True": 486
+      },
+      "prompt_3_deepseek-chat": {
+        "True": 843,
+        "False": 3395
+      },
+      "prompt_1_sabia-3.1-2025-05-08": {
+        "False": 3932,
+        "True": 306
+      },
+      "prompt_2_sabia-3.1-2025-05-08": {
+        "False": 3868,
+        "True": 370
+      },
+      "prompt_3_sabia-3.1-2025-05-08": {
+        "False": 3840,
+        "True": 398
+      }
+    }
+  },
+  "paper_cells_all_match": true
+}
